@@ -35,8 +35,8 @@ def daily_tweet():
         # Post the tweet
         client.create_tweet(
             text=(
-                f"{days_elapsed_since_winning} days since England last regained the Ashes.\n"
-                f"{days_elapsed_since_holding} days since they held it.\n"
+                f"{days_elapsed_since_holding} days since England last held the Ashes.\n"
+                f"{days_elapsed_since_winning} days since they last regained the Ashes.\n"
                 f"This was tweeted at {timestamp}.\n"
                
                 
