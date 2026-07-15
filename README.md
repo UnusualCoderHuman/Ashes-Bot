@@ -10,7 +10,7 @@ Days since England last held the Ashes
 Days since England last regained the Ashes
 
 ## How it works
-Built in Python using Tweepy (Twitter API wrapper). A scheduled script runs daily, calculates the number of days elapsed since two hardcoded dates and posts the update automatically. A timestamp is included in each tweet to ensure uniqueness and avoid spam detection. API credentials are stored as environment variables for security.
+Built in Python using Tweepy (Twitter API wrapper). A scheduled script runs daily, calculates the number of days elapsed since two hardcoded dates (what it tracks) and posts the update automatically. A timestamp is included in each tweet to ensure uniqueness and avoid spam detection. API credentials are stored as environment variables for security.
 
 ## Scheduling
 Runs daily via a GitHub Actions cron job, scheduled for 07:50 UTC. 
